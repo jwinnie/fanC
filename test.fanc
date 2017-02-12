@@ -1,0 +1,8 @@
+
+using stdio
+using string
+using ./fanc
+
+func main( int argc, char @argc[] ) -> int {
+	printf("Hello, World!\n");
+}
