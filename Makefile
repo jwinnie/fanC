@@ -1,0 +1,7 @@
+COMPILER=gcc
+BINARY_DIR=bin
+BINARY_NAME=fanc
+
+all:
+	$(COMPILER) fanc.c -o $(BINARY_DIR)/$(BINARY_NAME)
+
